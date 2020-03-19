@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Ville</h1>
+    <p>{{nom_ville}}</p>
+    <p>{{longitude}}</p>
+    <p>{{lattitude}}</p>
+    <p>{{erreur}}</p>
+
+    <iframe src="https://maps.google.com/maps?q={{lattitudeMaps}},{{longitudeMaps}}&z=15&output=embed"width="560"height="370"frameborder="0"style="border:0"></iframe>
+
+  </body>
+</html>
